@@ -787,6 +787,7 @@ a:focus {
           justify-content: center;
 }
 
+
 .contact_section .form_container button {
   margin-top: 10px;
   border: none;
@@ -842,6 +843,40 @@ a:focus {
   width: 100%;
   height: 100%;
   background: linear-gradient(145deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.25));
+}
+
+/* Common styling for appointment date and time input */
+.form-group.appointment-time,
+.form-group.appointment-date {
+  margin-bottom: 15px; /* Adjust margin as needed */
+}
+
+/* Input field */
+.form-group.appointment-time input,
+.form-group.appointment-date input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Media query for smaller devices */
+@media screen and (max-width: 768px) {
+  .form-group.appointment-time input,
+  .form-group.appointment-date input {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Media query for extra small devices */
+@media screen and (max-width: 576px) {
+  .form-group.appointment-time input,
+  .form-group.appointment-date input {
+    font-size: 12px; /* Further adjust font size for extra small screens */
+  }
 }
 
 /* end contact section */
