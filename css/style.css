@@ -1034,6 +1034,106 @@ a:focus {
     -moz-appearance: none;
     cursor: pointer;
 }
+/* Styles for payment methods */
+.payment-method {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.payment-method img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Styles for popups */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Styles for countdown */
+
+.countdown {
+  text-align: center;
+}
+
+#countdown {
+  display: inline-block;
+  font-size: 24px; /* Adjust font size as needed */
+  width: 80px; /* Adjust width and height for circle size */
+  height: 80px;
+  line-height: 80px; /* Make the text vertically centered */
+  border-radius: 50%; /* Make the countdown circular */
+  border: 2px solid #000; /* Border color */
+}
+
+
+/* Styles for QR code */
+.qr-code {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.qr-code img {
+    width: 200px;
+    height: 200px;
+}
+
+/* Styles for crypto address */
+.crypto-address {
+    margin-bottom: 10px;
+}
+
+/* Styles for copy text */
+.copy-text {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Styles for verify payment button */
+.verify-payment-btn {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
 
 
 /* end footer section*/
